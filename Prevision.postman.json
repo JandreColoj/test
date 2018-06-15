@@ -1,0 +1,601 @@
+{
+	"id": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+	"name": "Prevision",
+	"description": "",
+	"order": [
+		"1cf00342-b8b2-1cb1-89c5-ef73ba3332b0",
+		"d64baf87-0f2c-6a15-79d0-934bcf28adb5",
+		"7ea6bf37-7b7e-63e5-58ac-4e957ed43922",
+		"d3624056-6f0f-1af4-0fb0-cb1a166aeb18",
+		"f89e090c-b5fa-cef0-e0a3-f8a00374add2",
+		"daa719fa-fb65-e560-0219-2726b0c8e15f",
+		"6b68fefc-3997-9791-a15e-43e1fc9a6381",
+		"428606fa-5b3c-1fb1-0744-a6692e7a4cd8",
+		"a730bf46-328a-1f0e-d2f1-08aae4bfe3fb",
+		"e1098e5c-969a-9e7f-099d-cee8fb7fd164",
+		"46b2324d-367f-4c7c-63ae-5c50724072dd",
+		"319c362c-4a72-23fe-518c-1d2916ba942e",
+		"7c0bb54c-7315-d3b2-9f1a-9ec29f432dec",
+		"ab7eac90-f7df-16e8-6f30-2ce9cd73772b",
+		"1c42e3f5-0e54-739f-4e8f-5f4f5f8f1d20",
+		"37bfac7b-3e35-1c7d-3b4c-d3288d06aa48"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1524696082636,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "1c42e3f5-0e54-739f-4e8f-5f4f5f8f1d20",
+			"headers": "",
+			"headerData": [],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Seguridad/Validar/ApiKey?pStrLlave=ISE_Sys_Plataforma",
+			"queryParams": [
+				{
+					"key": "pStrLlave",
+					"value": "ISE_Sys_Plataforma",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524852281148,
+			"name": "Validar ApiKey",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "1cf00342-b8b2-1cb1-89c5-ef73ba3332b0",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Producto/ConsultarProductos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524776335563,
+			"name": "Consultar informacion y beneficios productos",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "319c362c-4a72-23fe-518c-1d2916ba942e",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Catalogo/Zonas?pIntCodDepto=5&pIntCodMunicipio=5",
+			"queryParams": [
+				{
+					"key": "pIntCodDepto",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "pIntCodMunicipio",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": null,
+			"dataMode": "params",
+			"name": "Catalogo Zonas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779937367,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "37bfac7b-3e35-1c7d-3b4c-d3288d06aa48",
+			"headers": "",
+			"headerData": [],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Seguridad/Generar/Token?pStrLlave=ISE_Sys_Plataforma&pStrMod=yvwGFHhaKl8=",
+			"queryParams": [
+				{
+					"key": "pStrLlave",
+					"value": "ISE_Sys_Plataforma",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "pStrMod",
+					"value": "yvwGFHhaKl8=",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524853146712,
+			"name": "Generar Token",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "428606fa-5b3c-1fb1-0744-a6692e7a4cd8",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Catalogo/Colinias",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": null,
+			"dataMode": "params",
+			"name": "Catalogo Colonias",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779737877,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "46b2324d-367f-4c7c-63ae-5c50724072dd",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Catalogo/Municipios?pIntCodDepto=5",
+			"queryParams": [
+				{
+					"key": "pIntCodDepto",
+					"value": "5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": null,
+			"dataMode": "params",
+			"name": "Catalogo Municipios",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779880326,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6b68fefc-3997-9791-a15e-43e1fc9a6381",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Validar/Dpi?pStrDpi=22264561201",
+			"queryParams": [
+				{
+					"key": "pStrDpi",
+					"value": "22264561201",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524779534851,
+			"name": "Validar DPI",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "7c0bb54c-7315-d3b2-9f1a-9ec29f432dec",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI3MDg0NzE1MTY0MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI3MDg0NzE1MTY0MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Catalogo/Sexos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524847269570,
+			"name": "Catalogo Generos",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "7ea6bf37-7b7e-63e5-58ac-4e957ed43922",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Validar/NIT?pStrNit=1234567-8",
+			"queryParams": [
+				{
+					"key": "pStrNit",
+					"value": "1234567-8",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524778913110,
+			"name": "Validar NIT",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "a730bf46-328a-1f0e-d2f1-08aae4bfe3fb",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Catalogo/Fechas",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": null,
+			"dataMode": "params",
+			"name": "Catalogo Fechas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779786303,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ab7eac90-f7df-16e8-6f30-2ce9cd73772b",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNTA4MTI0NTEwNDM4MDoxMTE6TEdPTlpBTEVaQTo5Njo2\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNTA4MTI0NTEwNDM4MDoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost/api/ise/wsrPlataforma/Proceso/ProcesarDatos?pIntCodEncLote=0",
+			"queryParams": [
+				{
+					"key": "pIntCodEncLote",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525813463781,
+			"name": "Procesar Solicitud",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": [],
+			"rawModeData": "[\r\n\t{\r\n\t\"Dependientes\":[{\r\n\t\t\"id_det_lote\": 0,\r\n\t\t\"id_enc_lote\":\t0,\r\n\t\t\"txt_ano_vencimiento\": \"2019\",\r\n\t\t\"txt_apellido1\": \"GARCIA\",\r\n\t\t\"txt_cod_categoria\": \"2\",\r\n\t\t\"txt_cod_ind_empresa\": \"1\",\r\n\t\t\"txt_cod_parentesco\": \"2\",\r\n\t\t\"txt_colonia\": \"OAKLAND I\",\r\n\t\t\"txt_conducto\":\t\"CREDOMATIC\",\r\n\t\t\"txt_depto\": \"GUATEMALA\",\r\n\t\t\"txt_direccion\": \"2A. CALLE 32-51\",\r\n\t\t\"txt_estado_civil\": \"SOLTERO\",\r\n\t\t\"txt_fec_alta\":\t\"07/05/2018\",\r\n\t\t\"txt_fec_nacimiento\": \"10/05/1995\",\r\n\t\t\"txt_figura\": \"A\",\r\n\t\t\"txt_frecuencia_pago\": \"MENSUAL\",\r\n\t\t\"txt_imp_suma_asegurada\": \"0.05\",\r\n\t\t\"txt_mes_vencimiento\": \"7\",\r\n\t\t\"txt_municipio\": \"CIUDAD DE GUATEMALA\",\r\n\t\t\"txt_nombre1\": \"LUIS\",\r\n\t\t\"txt_nro_tarjeta\": \"4285940321111111\",\r\n\t\t\"txt_plazo\": \"12\",\r\n\t\t\"txt_registro\":\t\"A\",\r\n\t\t\"txt_sexo\": \"M\",\r\n\t\t\"txt_tarjeta_emisor\": \"BICREDIT VISA\",\r\n\t\t\"txt_tipo_conducto\": \"TARJETA DE CREDITO\",\r\n\t\t\"txt_tipo_doc\": \"DPI\",\r\n\t\t\"txt_zona\": \"10\",\t\t\r\n\t    \"BeneficiariosDep\": [\r\n\t      {\r\n\t        \"strNombres\": \"Luis Ernesto\",\r\n\t        \"strApellido1\": \"Garcia\",\r\n\t        \"strApellido2\": \"Garcia\",\r\n\t        \"strCodGenero\": \"M\",\r\n\t        \"dbPjeParticipacion\": 34,\r\n\t        \"strCodParentesco\": \"2\",\r\n\t        \"strCodLeyenda\" : \"1\"\r\n\t      },\r\n\t      {\r\n\t        \"strNombres\": \"Briana\",\r\n\t        \"strApellido1\": \"Garcia\",\r\n\t        \"strApellido2\": \"Garcia\",\r\n\t        \"strCodGenero\": \"F\",\r\n\t        \"dbPjeParticipacion\": 33,\r\n\t        \"strCodParentesco\": \"2\",\r\n\t        \"strCodLeyenda\" : \"1\"\r\n\t      },\r\n\t      {\r\n\t        \"strNombres\": \"Allison\",\r\n\t        \"strApellido1\": \"Garcia\",\r\n\t        \"strApellido2\": \"Garcia\",\r\n\t        \"strCodGenero\": \"F\",\r\n\t        \"dbPjeParticipacion\": 33,\r\n\t        \"strCodParentesco\": \"2\",\r\n\t        \"strCodLeyenda\" : \"1\"\r\n\t      }\r\n\t    ]\r\n\t},\r\n\t{\r\n\t\t\"id_det_lote\": 0,\r\n\t\t\"id_enc_lote\":\t0,\r\n\t\t\"txt_ano_vencimiento\": \"2019\",\r\n\t\t\"txt_apellido1\": \"GARCIA\",\r\n\t\t\"txt_cod_categoria\": \"2\",\r\n\t\t\"txt_cod_ind_empresa\": \"1\",\r\n\t\t\"txt_cod_parentesco\": \"2\",\r\n\t\t\"txt_colonia\": \"OAKLAND I\",\r\n\t\t\"txt_conducto\":\t\"CREDOMATIC\",\r\n\t\t\"txt_depto\": \"GUATEMALA\",\r\n\t\t\"txt_direccion\": \"2A. CALLE 32-51\",\r\n\t\t\"txt_estado_civil\": \"SOLTERO\",\r\n\t\t\"txt_fec_alta\":\t\"07/05/2018\",\r\n\t\t\"txt_fec_nacimiento\": \"10/05/1995\",\r\n\t\t\"txt_figura\": \"A\",\r\n\t\t\"txt_frecuencia_pago\": \"MENSUAL\",\r\n\t\t\"txt_imp_suma_asegurada\": \"0.05\",\r\n\t\t\"txt_mes_vencimiento\": \"7\",\r\n\t\t\"txt_municipio\": \"CIUDAD DE GUATEMALA\",\r\n\t\t\"txt_nombre1\": \"JOSE\",\r\n\t\t\"txt_nro_tarjeta\": \"4285940321111111\",\r\n\t\t\"txt_plazo\": \"12\",\r\n\t\t\"txt_registro\":\t\"A\",\r\n\t\t\"txt_sexo\": \"M\",\r\n\t\t\"txt_tarjeta_emisor\": \"BICREDIT VISA\",\r\n\t\t\"txt_tipo_conducto\": \"TARJETA DE CREDITO\",\r\n\t\t\"txt_tipo_doc\": \"DPI\",\r\n\t\t\"txt_zona\": \"10\",\t\t\r\n\t    \"BeneficiariosDep\": [\r\n\t      {\r\n\t        \"strNombres\": \"Luis Ernesto\",\r\n\t        \"strApellido1\": \"Garcia\",\r\n\t        \"strApellido2\": \"Garcia\",\r\n\t        \"strCodGenero\": \"M\",\r\n\t        \"dbPjeParticipacion\": 34,\r\n\t        \"strCodParentesco\": \"2\",\r\n\t        \"strCodLeyenda\" : \"1\"\r\n\t      },\r\n\t      {\r\n\t        \"strNombres\": \"Briana\",\r\n\t        \"strApellido1\": \"Garcia\",\r\n\t        \"strApellido2\": \"Garcia\",\r\n\t        \"strCodGenero\": \"F\",\r\n\t        \"dbPjeParticipacion\": 33,\r\n\t        \"strCodParentesco\": \"2\",\r\n\t        \"strCodLeyenda\" : \"1\"\r\n\t      },\r\n\t      {\r\n\t        \"strNombres\": \"Allison\",\r\n\t        \"strApellido1\": \"Garcia\",\r\n\t        \"strApellido2\": \"Garcia\",\r\n\t        \"strCodGenero\": \"F\",\r\n\t        \"dbPjeParticipacion\": 33,\r\n\t        \"strCodParentesco\": \"2\",\r\n\t        \"strCodLeyenda\" : \"1\"\r\n\t      }\r\n\t    ]\r\n\t}\r\n\t],\t\t\r\n    \"Beneficiarios\": [\r\n      {\r\n        \"strNombres\": \"Juan Fernando\",\r\n        \"strApellido1\": \"Garcia\",\r\n        \"strApellido2\": \"Garcia\",\r\n        \"strCodGenero\": \"M\",\r\n        \"dbPjeParticipacion\": 70,\r\n        \"strCodParentesco\": \"2\",\r\n        \"strCodLeyenda\" : \"1\"\r\n      },\r\n      {\r\n        \"strNombres\": \"Alicia Fernanda\",\r\n        \"strApellido1\": \"Garcia\",\r\n        \"strApellido2\": \"Garcia\",\r\n        \"strCodGenero\": \"F\",\r\n        \"dbPjeParticipacion\": 30,\r\n        \"strCodParentesco\": \"2\",\r\n        \"strCodLeyenda\" : \"1\"\r\n      }\r\n    ],\r\n    \"Cobranza\": {\r\n      \"strResponseCode\": \"00\",\r\n      \"strResponseCodeDescription\": \"APROBADA\",\r\n      \"strHostTime\": \"162621\",\r\n      \"strHostDate\": \"04302018\",\r\n      \"strReferenceNumber\": \"96715163\",\r\n      \"strAuthorizationNumber\": \"195381\",\r\n      \"intSystemTraceNumber\": 9199,\r\n      \"strTransactionId\": \"00919996715163042621\",\r\n      \"strInvoice\": \"175013887\",\r\n      \"decSalesAmount\": 1.1,\r\n      \"strTextoRespuestaCliente\": \"Su Transacción fué aprobada, Gracias por su pago.\"\r\n    },\r\n\t\"dtFechaVenc\": \"01/07/2019 12:00:00 AM\",\r\n\t\"dt_fec_nacimiento\": \"04/08/1989 12:00:00 AM\",\r\n\t\"id_det_lote\": 0,\r\n\t\"id_enc_lote\": 0,\r\n\t\"strDiaCobro\": \"3\",\r\n\t\"strTipoTarjeta\": \"1\",\r\n\t\"txt_ano_vencimiento\": \"2019\",\r\n\t\"txt_apellido1\": \"GARCIA\",\r\n\t\"txt_apellido2\": \"GARCIA\",\r\n\t\"txt_cod_categoria\": \"2\",\r\n\t\"txt_cod_ind_empresa\": \"1\",\r\n\t\"txt_cod_parentesco\": \"0\",\r\n\t\"txt_colonia\": \"OAKLAND I\",\r\n\t\"txt_conducto\":\t\"CREDOMATIC\",\r\n\t\"txt_correo\": \"LGONZALEZA@ASEGURADORAGENERAL.COM\",\r\n\t\"txt_dependientes_ingresados\": \"10\",\r\n\t\"txt_depto\": \"GUATEMALA\",\r\n\t\"txt_direccion\": \"2A. CALLE 32-51\",\r\n\t\"txt_estado_civil\":\t\"SOLTERO\",\r\n\t\"txt_fec_alta\":\t\"07/05/2018\",\r\n\t\"txt_fec_nacimiento\": \"04/08/1989\",\r\n\t\"txt_figura\": \"AP\",\r\n\t\"txt_firma\": \"iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAftklEQVR4Xu1dechWxReesn5aYiUVSYu20UqbkaW2Ge2lpv1hqVAWYZJSibSRlFpEiJaClRUtoLYglJmmFZSW0V5GtpgtYmW2l1m2qD+eW+flfMe5985d5r53Xs+FsO/75s7ynJnnnnPmzJmtNm3atMnoowgoAopAAAhspYQVgJS0i4qAIhAhoISlE0ERUASCQUAJKxhRaUcVAUVACUvngCKgCASDgBJWMKLSjioCioASls4BRUARCAYBJaxgRKUdVQQUASUsnQOKgCIQDAJKWMGISjuqCCgCSlg6BxQBRSAYBJSwghGVdlQRUASUsHQOKAKKQDAIKGEFIyrtqCKgCChh6RxQBBSBYBBQwgpGVNpRRUARUMLSOaAIKALBIKCEFYyotKOKgCKghKVzQBFQBIJBQAkrGFFpRxUBRUAJS+eAIqAIBIOAElYwotKOKgKKgBKWzgFFQBEIBgElrGBEpR1VBBQBJSydA4qAIhAMAkpYwYhKO6oIKAJKWDoHFAFFIBgElLCCEZV2VBFQBJSwWnQOvPjii2bKlCnmyCOPNDfddFMQo3z33XfNpZdeapYvX2569eplRowYYc4777wg+q6drAYBJaxqcK68FRDV0qVLo3Y///xzs/fee1fehywN/vzzz2afffYx+Jc/V111lbnjjjuyVKVlWxgBJawWFO6TTz5pBgwYEI1sxx133IwE6jhkEBM0QtvzxBNPqKZVR6E1oU9KWE0A3XeTXLt68MEHzcUXX+y7ycL177TTTuaXX36J6pk8ebIZN25c42doh++8845BmVZ7vvjii9prv3XCXAmrTtIooS8PPfSQGTZsWEO7woKo+0Lnfb7ooosMfoYPrk+fPg1EQiFeFxFCJiBkaMIwgbfZZhszaNAgM2PGDJfXt+gySlgtJH7pB4Kz/eabb679CE8++WSzaNGiqJ/QpKAh4uG/h5YFX1zoDydnOZZQ5NVMGShhNRP9ktuG6ffwww8HpV1xTeqkk06KNCt65OIO3ZfFfYtxov/pp59qrxGXPG0zVaeElQmu+hZGSMBRRx3V6CCZVvXt8b896969e6RV4XnhhRcirYo/3Ld19tlnm3nz5tV9SNb+QT4wcfkuKDZEBg4caF5//XWzbNmy6D3siGIDQh87AkpYLTIz+vXrZ+bOndsYTQjaCNc44kw+xGHNmTOnMS4bqdVdhCCprl27mrVr1za62q1bt0ibxLi5lglzmAi87uNqRv+UsJqBesltSu0K1YcQe8V3M7nvisMDjWP06NHBaY58DIgvg6OdHmhWICny1eH3IK6VK1dGRVAWhKbP5ggoYbXArJAxTB06dDB//PFHrUdm2xm0dRjaSefOndv8KSQ/D984oEHYtN/LL7/cTJ8+PSrSSjuiZU9CJayyEW1CffzrjOb79+8fbZnX+eF9TtMG+WYCxhSKn8cWDDtq1CgzderUzUQDrQqaWCjya9bcUsJqFvIltcsnOlVZ9y809125bA7ImKwQQhzuvPNOc/XVV7eR8pVXXhmFmcTFxXETedOmTSXNkNaqRgkrcHna4nrSNJZmDznPOUepRdZ5U8FGVgjZAFEnBfGCzBBQiqfO42vm/FHCaib6JbQtzSU4a7mDt4QmSq2Ca0su2hU1Lkkgy7ulDiClMqkNovgRRxwRRe9zJ7utGv6uBpHagVbCqnI2e2hLah4wO7C46/pwJ3QWTTAE5zs+FIiFk7FWckcwSTZbbbWV+rESAFLCquvKduwXTXAqXmdTgodf5NkYkNpknXx1ICmQldRus8qDPkAy6t9xOrR8MSWsgEVsi7+q85b/kCFDzKxZsyLE4+KuksQhx5uH9HyJW5Ip2slDqOTfgxmJ8erTFgElrIBnhPSX1Nl/xXcze/ToYV577bVcyEsTuA4EbXOy5/WxUWS/Epb6sHItkDq/JHcI8y6SKsbINZCsZhLvnySHPFpMkfHef//95tZbbzWnnHKKmTRpUuSvkn6rIpofEVYoiReLYJnnXdWw8qBWk3fk4i1CBC5DwuKEmYJEewhyPPzww11eixY1RasX1Rxk3FkRcnDqvCiEUwR//vln9FuQJT4alBoHv3MJX0hqlxO7xmJtjpQSVp5ZW5N3eNwOvsi+kvWBpJC+GIuTPzjQi6htkEbSwyO+yyBVeSC6SrOQb3LAtEWmBXr4gea8U2Tw4MHmkUceMdtuu63566+/8lbTsu8pYQUs2uOPP94sWbIkGkHZmga0otmzZ5uZM2e2yVFlgwsEAiKyPTypYFk+tmbmyeKEtfXWW5uNGzdGw7YdaM4ztTi5V0nEefrajHeUsJqBeklt7r///ubTTz+NakMedHkUJE8zpE1R+l5ZB0yexYsXG2muIL4KqV/kw8mlrDOAMiarqtgzWywYjbcsXxonrCxxanlkHeI7SlghSs2YNn6hMhy0ICgcC7FtpUMzwkKCfwVHS2B6whyl7KZJi5Z29co2WblZWFUOqTjCKouIgaMSVvKCVMIKlLD4AeIijmwQFC6tkESFOkEKyIgZ51yX2QhAZjBj6Ml7DMdFJNIsrMJBbTtovt9++5kVK1a4dNmpDCdi1bA2h0wJy2ka1a8Qd7jnOXcGbQEalTzGA/MKROR68arM98TNs7jLJcpAE/1HH+lqsCoykdoCdffcc0+zatWqMoYU1ZH36FJpHah5RUpYNRIQFgTyJeHfoUOHmttuuy32dD+f2FkXK0gKu378GEla6pM4mGyLGP2BtkU55n3Fh/EQgDLNsrixPv3006Zv376b/TlP1H5cG5piRk3CGlFSclfkdj00CCx+m7bDd6tcd5NgosExT+Yf7sPDcRloa64alW0E8lhK+/btTc+ePRu7i2UuaN4+N4vL3iW1jfOCCy4wjz322GZ/yqPhxs0ELtcqzNxgFsd/HVUNqyYSi3Po2hzKWf1XqBt+Kp6FFAscRJWW8sQFHtR/yCGHmNWrV29W3DeR0K06vpP6cU0SbYJMyBwty+nP50BZISAu8gupjBJWTaTFHdTQtDi5yG177uxO29JHPSArSnmChQCTEG2U+cC8PPjgg8369evbVItruXA9l6+Ha3c+ndT8DCMICjjy23xctdwkHJLuaPSFX2j1KmHVRGJ81wsmFJlv1D2+GLmfI85/ZXOql2m62GCDFnLCCSeY3377rfHnJLO2DOi5tllGFL2tT3I3FD45yIDHvZXRNh9L2oeoDOxCrEMJqyZS47t+9LXmxESOa2k62vwc0HYGDBjQ8FUh2BOEWMRP5QoTD2ald2BCgYR9tY8jQtipGzt2rBk/frxrV53K2TYVQPzQUPnFtWUQDJ8DZQWiOg0yoEJKWDURFu368SBQbiLQogcZ4QZhPLYkb/wd1AXtAAuhiseWX57aBflCC/FBWiNHjjTTpk0zvXv3Ni+//HKpQ6WPxm677WbWrFkT1U3aFL+Vugw/Ftfksu78ljroGlemhFUT4ZCPRDqpefgCvuzQsBCSgIdv5dPviZzgYwGByKvffQ1XZty85JJLzAMPPNCmuTIWta3/FNAJAoHpnHTRQ5bx82wY0HApsp92Pcs+hH3cccc18oT59MdlwaBuZZWwaiARbuZJ04JrLViIiECndCa0cGC2XH/99WbBggXRaEB6eK+shesCETdnKPIePhk4xWk3DfXgwPZLL73kUmWmMqTtlOFLQsP80DbICj+Tk53M8LLT+3Tp0iXS4nCoesOGDZnGv6UUVsKqgaSTHMcyonu77baLbnWmbW8QEyLWoWXAbMENwlWZgASd9Ktx/wvIFJoIXcOOd6D1gVjKJFTSdsrwJaGP8kwf+owx8HADeVSnaNsUg6UhDfGLUgmrBoQ1YsQIc88990Q9sW2P2/KFX3jhhRFxUfgDtBp88asyATls3DSynWsEoZ1xxhltckeVbR6SJlrkXCWNiRMRzHDgH3crMw93KHJxRJlJDmswpb11QQnLG7TuFXfs2NH8/vvv0a7T22+/vdmLtrvu8M66deuisjBZikaru/e2bUnZt6TdrSyR/Fn7w0mmqP+HPhDQdKAhYozYdcUjQ0NkyEPe6HSNwXKTuBKWG07eSvFt86TzcPLyBXTIVxBolsHy0AsXDUNqi2XGaZEfq0hIgNSu8CFIypgqwx7y7u5xX2VR0zKL/EIrq4TVZIm55j/CrhsWIj3nn39+lBG0mQ/3vaEfrouVO+jxHkgLPq2ix4RoR7XIgictkPuR+E6tzWTnH5O8wblFs280cx5U2bYSVpVoW9qiyZ7ke4G50K9fP7N27dpGDb7P6LnAUsR/Y/PLFT0kTYveRdOzjY+bZXy3kTS3OBlxssnrmyuSfcNFVq1SRgmriZLk5kScGYMyCBTl15+jy9j6fuuttwprJXmHL4NE85CN1LRADCCKvBsHRDgykaDrGMm85YTnkoRQ7hbmOVeoWRrcpKSE5YaTl1JpFw5gIdCdd8hsSfnbqTO+8ky5DJZrV0VMMFt0fN5YKr7TlpVAuXnL33U9LsM3FLL2Xx3uLjPu3zJKWO5YlV4yLrodDWHxYWcKkxlffGgNCFzE9U9///13oy95vuZFB8IDJnH8B1pgkSM3IAuQN8VqYazYgIDZmPVxDSAFrtCoUJ5H6Usf1Omnn26ee+65qBtJWHPSSfJjoRzCWLCTifsNQXTAkKLo8/rAsuIUanklrCZJLskcxAJCJgBoH/CbYEFjcSFiHPFMCxcubPS6iHaTZ+jo2wEHHGC+++676PWy2oc2icW7dOnSqN7//e9/Zvr06ZlJy8Xxvv3220cxbHhwB+BHH30UBd9SGAMPaKWyO+ywQ5uIfRt2IF3gExdiYgtPQT3t2rVrRLa7blzkkV0rvKOE1SQp2rIzUFegXYwePTpaQHTEhjIDIL/UOeec06bXVWpZMu6o7LalMx44QetwfQjXuE0Jmeb40EMPNV999VVENNKUKzujKQ8BsY0HGWC59uw65i2pnBJWk6RNk1fuPNEigZkA0wsLmJtgCEyUAZhVmREy5gjHgO6+++7SEbzrrrvMFVdc0agXJAkSd3nIJxaXgVQS1i677GK+//77KPhW3mzNybOoJimxw0YKjlnNnz+/MSxocxQM7DLWLbGMElYTpB532JlPar6AaOHQ7pWc/L7TAxNE8oacsrUrLgp5cNr1/CHfsbP1z2aWHXjggebVV1/d7GwjTx9TJBgV4+Lkx+9oBGH+8MMPjaEjO6zMcpF1ilLyR8wzugUpax11La+E1QTJ8EVDPgu+IygvRiXnPNekJHlk3ZnKOmy5m1fFDmVe0qIQAZs/yEZYtnIyKDbrriPHVx4OJ+xs9xzivaLkyE3PvCEeWedHVeWVsKpCmrXD/Vcw8fiOIIpx8uGTnf++agKRR4OKLOAskEObBDlTihqXozxE5rajTvfee68ZPnx4owtw7mO3Tj5SI5JxcFnGIP1+dNZRxqFRnUU0ZjkvyrgVPMtYfZdVwvKNsKV+nPzH1/XEE0+MclvxxSE1F64RSBNHkogvE00ugqqj7GWKGmgN0IrijvIkOd5lDqudd9458mHJh5uDeSPnUSfkd+qppzZ2Abl8eRuy/TxalkyiiDqr0ISrXEJKWFWi/V9bZLJAA8Ckhd8Cj+1rSIvPliNJLr48k9xl+HJ3qxlb7yB4ykmFPidFxSdFvONy2htuuKExbPivENbAH2kO5r2k1UYgpF1x2UG22EihTLLoSx4tyxaEWzRzhcv8qLKMElaVaP/3xaWc7Pfdd5+57LLLGj2w+aHIvLF9KWVyPx+aj1y8ZeSbygs5xgs8KFYL9cTtkJL2Ik1XqZUedthh5r333mvTJWnC5TV/5W4ud6hLhz7GRbF21Jms7Uq/ZhHNMK+MfL+nhOUbYVG/TCVMiy+ObGhix33lZdxS3nxMcTDIRdAM7Ur2TRIB+gjtkkfbEy4cN6mRot6jjz7avPnmm22a4KSWN/unJHq+M8g1IV6/lKVLuAqdMqCUznwgvjdiKl46UXNKWBWjTgSAicrTBttUdx6+EPe1lSEOZU5S6aCu0xcbix6aEDnj9913XzNp0qTGBbFECvQh4LuwXOQ9e/Y0r7zySuNXcucurw9IanKcfA466CDz8ccfR23KdNL86rAkvNFPrpFBa8fHhB6XyPyKp34pzSlhlQKjeyW2RHxxX1IeRJq0S8U1jrwLTI6AX8JAfyuTDN0Riy8pj/NAGwUWIAEylzt37hzdiYjfY4MDGhWyXNBz7LHHRjFY9Eg/UB6/oNSuuBbF/9ahQ4fGESFqXzri4zTmIUOGmFmzZsWC4+PKszJkVrQOJayiCGZ43xZ3Yzu/RlWSLyXNbyTvL8RuYdFHmid1jsKGJnjNNdc0tC3aRQR+IKnBgwdHixtm2eLFi6PzmfQgNz5f+HLceZzWSTFy/ONiM/Nl+3EmOG4fWrJkSayYx4wZYyZOnFh0GtTufSWsCkViC1pM2oFyOchL3eeLpKgmZCPWsjQ3X3Cjz1jsdAUa2jnrrLPMM88802gSWIMw6EIJ/EGaXUX9V9KM5h8bGUDqEokfdyRIkqLENe/Opi/5lFWvElZZSDrUIwMF0xy6FP7gQkCcDAcNGmQeffRRhx7Zi9gCGrPuWOVuvOCLcoePqqOFL0mDExbO9fGD5XnOD8oQkLhg36QdXV5HXJxYGmHlMWULQl/J60pYlcD8byN9+/Y1OHxLT9Kk4s5014BQujm4qMNV+tnSiLVCCJ2ast2FiPCFqVOnRmERPLsnT2ksdxGvu+46g7gt10f6rqQZzUkmSfayHvnBkqRr618ddnNdcctSTgkrC1oFy3KHahoJ0OJJ81/xLvGJnvcLK3cdUX+I5sXMmTPN0KFDN5MYCApjpIeftZP+o6wYSu2Om9Ey6SFM2KSLZLmvS+aJv+WWW8zYsWMbY+BXvuGXrXYchwtRCasgCbm+njV6mhZPVrOESBFfc77N7dpPpIxB4jz+5HE8u7bnoxz3wY0cOdIgQNd2XpDapvEVjTmTmilpRjIvv2t8FQ9x4FoWadLUf8wRpM9+//33I58ciLPoDUQ+5FJGnUpYZaDoUAff1dl1113Nt99+m/gWTf6sqj33P+XxO8ndp9NOO808++yzDiOsRxF+kJz8RKT5HHPMMWb58uXWzKEgqy+//NKsWLGiMZAs2Ns2KkCE+D1SXVNYCjRm+BuTtCvqAPdl8XgyvmmA9DSffPKJU331kFCxXihhFcPP6W1pZqVpTdxH4eq/oo7whZPWjq3zkrDmzp1rzj33XKdx1qEQP3sJYgDxE/74f5A4gkXl+UFb38ePHx8dUAfJpBGMTDqId0CUyN++fv36qPqs+e9lTBi0LPwOuf3pcdmQqYNcyuqDElZZSCbUI4+SpJEQmY95zToybfLkQuJmTd1DGSTkfKdUapekrcAce/7559vEMCHIEsdzksxGtAVs6PgP/gW+CP7Eg1MLyA9PT5cuXcw333zT+JkfzXGdcvhwod/8RAR/N4t/07XNupdTwvIsIaldpTnb0R3SEvI6u/mXOavjmO+gheS7Srr5BpgSmXXq1KnNhbT4GzTRzz77zECbLPsBUQ0cODB3FlHb+UfS1vBhy3uHY9njrKo+JSzPSMudJ5c86KQNFFH3yfmeJYNDyPfjEc7QCrHIbSZcXOwSNKxly5a1uawWGRw2bNgQER3IEKY2/pVHpPAz8mn9888/Zs2aNdFswmUSuNwC7aFfRR3gMi4OJIiPEjT3Le1RwvIocZsjNk3j4f6rIpkXOFG6akr8a+6yk+URukxVkwmN3FYLFiyIvSMR8ujRo0d0Rdkee+wR3ZZje/KYwpxUfGAHsxBmLoiY7lPMBFKLFFbC8ihIW9R12s4dmXNF/RPcFHVdQFwDybJD5hHC1Kr5RyFLn23xZtRYlnroHU5YRTTj1AFv4QWUsDxNACwkXDjK75lzCejLG39lGwaZlq7ZK2nRufTTE2yZqoU2CnPugw8+iE4R4C5HPNBG8DeMAw9yjuH/gQdMPGiSeLp27WpWrVrVps28KXQ42ad9lDINUgu3QUAJy9OEkL4rNOPiT6JdujK+0tz57qo1gGiLXDufBU60hf/I0Q+th3xE5C/i/6Ju8iWltQOCAonQWEBW5Euif21pYCgUIq1++ffQyD7r+OpSXgnLgyTiznqlmWZpd+pl7SpPoexCllnr5+U5+dD/E8HgZzzoDz8Wk7c97LTCsY3o7vbt25tRo0ZFh5bh38F/WQgXzvXZs2eb7t27F3ZiV0n2ebEL/T0lLA8StF0GgGbStJw85wfTus/9aK7Od6oTBEMpnDkJQQvh2k6RK7Bk/0FGFO9EsU7yZ76bmbaJkYaP/j0sBJSwPMhLBopSE2m7fvRemiaWpctca5swYYLB2ToQDAUjEvlw7Yd+l6Udl7JERnyni0jJNZ6IO8vzRPK79FPL1BcBJSwPsrHF+7js+pEvJ4/Tlkwt5DgnXxD5f5566inz448/Rr6iNNLMAwf8RWSKERmhHiKhMrfhyccH5zh8UGlHZvKMR9+pLwJKWB5kw6PFqfq02B5b/nYKWAQJkQZE5hdS/X799dfR0RDyEXkYioFWRL4hIh4bKfloW9ZJGmjWM3lV9E3bqAYBJSwPONsIi5t5IBgyyUgbevzxx6PteZxBw2HZMv1CcohSI5K+Iq4teYAnV5U8zinNF5irAX0pCASUsEoUE3w/69ats2Y3QEoQHHr2SUQ2bYh2zHC4d9q0adFo85icJcKUuSrgSila1G+VGb6WekEJK0WcNm2IO6h57JCPmUGpTbjWQySEXEhIB4MnzZfDQxzSzFMf48hbJ/qNhHW4xy9LLqm87el79UZgiyQsckbDLKNARP4vROaLiGCOcRMMRIO2keMIB2ZnzJiROZbIdYrxEIe0FDeudfouRwG4yI8+b968LS47gW98Q6u/5QkL5sSUKVMaJ+59OKjp2AeEjwsgbGlKkmKgyJmcN52M66TjIQ5lhk64tp+1HI+3UlMwK3qtWb7lCSvtOqQ4sdo0ITLL+HEPaYrZMjTAkb569erYGUSpYKrwLRE5up4vbOa0pxAGlxxizeyntl0dAi1PWHx3KY2Eytodk7uESTFYFAhZ1YHjUKLENftBdSQQUkstT1gQRtVnvPh1Xmg/KQMAHcep0hGeNYtD1RMa8urTp08kN9Wuqka/3u1tEYRVtQikGZpEWGSiVXkmLk8Whyox5JsDVeJS5Ri1rXwIKGHlwy3xrSyERX6arAeTi3ab2vWdxSFrP7nJWpWZnLWPWr55CChhecDelbDIQd8Ms6fo/YUeYItMQDIFUf/EiRPNmDFjfDSldQaKgBKWB8HJSwPiTEI6P9iMLXues6sZ7UvY0Z9hw4ZFB5rxqHblYWK2QJVKWJ6EyMMb4giLgiLLyC6aZxjkK8ImAUzStGj5PG24viO10ipCPFz7puXqg4ASlkdZkJ8oLuaJFmnV/isaMidV30GrSTAPGTLEzJo1q1GkDhqfx2mhVRdAQAmrAHhpr1L4AMrZ8lDtvvvu0WFppI9p1kO7lC75unz0kTvZUf9ee+1lkLa4mdqej3FqneUgoIRVDo7WWriZIwmLAkZdLlb12MXGjchooxmmKSd19EFNQZ/SDr9uJSyPMkwiLIqFqkOcEZEG+otcU1U9UrtSU7Aq5MNtRwnLo+x4bnepYZHDuw4aBQ8krbI/UrsKJYOExymjVacgoITlcYokERZpX3VZpHScqKojQvLm5ara9ShurboCBJSwPIKMu/Lmz58ftSA1LByQbpaj2zbkZoQ48DOXdSFuj9NBqy4BASWsEkCMq6JHjx7mjTfeiP7MFyRpF3mvRffRZR7iUJVfjTK3lnmrjg9stM76IKCE5VEW3OnOCYuczXVLokf9BYHAl6WPIlA3BJSwPEqEO5W5M5uO7jQzWNM27LpncfAoKq06EASUsDwKiify41dTkb+ojtdVVe189wi/Vt2CCChheRRqHGGR6VVHwuIHt5t1ZMijSLTqwBFQwvIowDjCIlPRx7XxRYdTtywORcej77cWAkpYnuQp44z4zhsRWR0JC3BQFok6ZHHwJB6tNlAElLA8CU4eO6FzeqTB1CkGS0LAyXbChAnmxhtv9ISSVqsIZENACSsbXs6l4wiLfl+nGCzboM4880yzcOHC6NJX+LL0UQTqgIASlicpxBEWhQ7U/aAvZUMFPHULv/AkMq02AASUsDwJSRIW+bAopKFuQaM2GNISEHqCTqtVBGIRUMLyNDniCIsORDcj91TWofJA0qqO62Tto5bfshBQwvIk7zjCata1XnmHSf3V4zp5EdT3ykRACatMNFldtrAGaFedO3c2nTp1Mr/++qunlsutlm6mRq11DHQtd7RaW90RUMLyJCFJWHBcQ1sZMGCAqTqzZ5EhIgwD/Ube+ZD6XWTM+m59EVDC8iQbnq4FTcDJjmfcuHHR/+MITCgPBZKivyH43kLBVfuZHQElrOyYOb/Rrl07s3Hjxqj85MmTzaJFi8ycOXNMaA5srmWpL8tZ/FrQAwJKWB5ApSpxjdfq1aujH0FSCGmAaRVidk0Kx6CxQOvSRxGoGgElLI+I8wR+06dPN8OHDzfdunUzMBdDe9BnjGflypWRTwv5vfTuwNCkGH5/lbA8ypD7fq699lpz++23m/79+xtEkYf48B1DPWMYogTD77MSlkcZcjOqd+/eZsmSJcE53Dk88GX16tXLfPjhh5F2BS0L2pY+ikBVCChheUSaJ8Pr2LFjdC196LFM/Iyhhjl4nDxatRUBJSyPE4MfbaFm6poDKwsM3DeHYFhsKKg/KwuCWjYvAkpYeZFzeE8ez6l7ShmHIUVFZFBs3TNPuI5Ly9UfASUsjzKyRbvDr9UKD99Q0FubW0GiYYzh/+e+/npq8aA3AAAAAElFTkSuQmCC\",\r\n\t\"txt_frecuencia_pago\": \"MENSUAL\",\r\n\t\"txt_imp_suma_asegurada\": \"0.05\",\r\n\t\"txt_mes_vencimiento\": \"7\",\r\n\t\"txt_municipio\": \"CIUDAD DE GUATEMALA\",\r\n\t\"txt_nit\": \"8591848-2\",\r\n\t\"txt_nombre1\": \"ANDRES\",\r\n\t\"txt_nombre2\": \"EDUARDO\",\r\n\t\"txt_nro_doc\": \"2572394640109\",\r\n\t\"txt_nro_tarjeta\": \"4285940321111111\",\r\n\t\"txt_plazo\": \"12\",\r\n\t\"txt_registro\": \"A\",\r\n\t\"txt_sexo\": \"M\",\r\n\t\"txt_tarjeta_emisor\": \"BICREDIT VISA\",\r\n\t\"txt_telefono\":\t\"23232323\",\r\n\t\"txt_tipo_conducto\": \"TARJETA DE CREDITO\",\r\n\t\"txt_tipo_doc\": \"DPI\",\r\n\t\"txt_zona\": \"10\"\r\n\t}\r\n]\r\n"
+		},
+		{
+			"id": "d3624056-6f0f-1af4-0fb0-cb1a166aeb18",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Validar/Colaborador",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Validar Colaborador",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524778952269,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"intNroPol\": 1,\r\n  \"intCodRamo\": 2,\r\n  \"strCertificado\": \"sample string 3\",\r\n  \"strNit\": \"sample string 4\",\r\n  \"strNroDocumento\": \"sample string 5\",\r\n  \"strNombre1\": \"sample string 6\",\r\n  \"strApellido1\": \"sample string 7\",\r\n  \"dtFecNac\": \"2018-04-26T15:40:17.3799394-06:00\"\r\n}"
+		},
+		{
+			"id": "d64baf87-0f2c-6a15-79d0-934bcf28adb5",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Proceso/ConsultarLote?pIdEncLote=3915",
+			"queryParams": [
+				{
+					"key": "pIdEncLote",
+					"value": "3915",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1524778526018,
+			"name": "Consultar informacion lote",
+			"description": "",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"responses": []
+		},
+		{
+			"id": "daa719fa-fb65-e560-0219-2726b0c8e15f",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Validar/Edad?pStrFecNac=06/12/1950&pStrCodCateg=1&pStrCodParentesco=0",
+			"queryParams": [
+				{
+					"key": "pStrFecNac",
+					"value": "06/12/1950",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "pStrCodCateg",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "pStrCodParentesco",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": null,
+			"dataMode": "params",
+			"name": "Validar Edad para Producto",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779340380,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e1098e5c-969a-9e7f-099d-cee8fb7fd164",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Catalogo/Departamentos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": null,
+			"dataMode": "params",
+			"name": "Catalogo Departamentos",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779833854,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f89e090c-b5fa-cef0-e0a3-f8a00374add2",
+			"headers": "Authorization: agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "agsa SVNFX1N5c19QbGF0YWZvcm1hOjIwMTgwNDI2MTQ1NzQ2NjI2MjoxMTE6TEdPTlpBTEVaQTo5Njo2",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://apps.aseguradorageneral.com:50443/api/ise/wsrPlataforma/Validar/Certificado",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "317ebfa9-8d76-56f1-93f0-9e9c090ef056",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Validar Certificado",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1524779014319,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n  \"strPrimerNombre\": \"sample string 1\",\r\n  \"strPrimerApellido\": \"sample string 2\",\r\n  \"strNit\": \"sample string 3\",\r\n  \"strDpi\": \"sample string 4\",\r\n  \"dtFecNac\": \"2018-04-26T15:42:37.4686342-06:00\",\r\n  \"intNroPol\": 5,\r\n  \"intCodRamo\": 6,\r\n  \"strParentesco\": \"sample string 7\"\r\n}"
+		}
+	]
+}

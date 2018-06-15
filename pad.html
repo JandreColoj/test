@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>pad</title>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+
+    <h1>
+        Draw over image
+    </h1>
+    <div class="wrapper">
+
+        <canvas id="signature-pad" class="signature-pad" width=400 height=200></canvas>
+    </div>
+    <div>
+        <button id="save">Save</button>
+        <button id="clear">Clear</button>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    var signaturePad = new SignaturePad(document.getElementById('signature-pad'), {
+        backgroundColor: 'rgba(255, 255, 255, 0)',
+        penColor: 'rgb(0, 0, 0)'
+    });
+
+    console.log(signaturePad);
+    var saveButton = document.getElementById('save');
+    var cancelButton = document.getElementById('clear');
+
+    saveButton.addEventListener('click', function (event) {
+        var data = signaturePad.toDataURL('image/png');
+
+        // Send data to server instead...
+        console.log(data.image);
+    });
+
+    cancelButton.addEventListener('click', function (event) {
+        signaturePad.clear();
+    });
+</script>
+
+</html>
